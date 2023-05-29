@@ -1,5 +1,38 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
+
+#first {
+  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+}
+#first .container {
+  color: #ffffff;
+}
+#first .container span {
+  font-family: "Charm", cursive;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+#first .container h3 {
+  font-size: 100px;
+  margin-bottom: 22px;
+}
+#first .container .items {
+  display: flex;
+  justify-content: center;
+}
+#first .container .items .item {
+  display: flex;
+  align-items: center;
+}
+#first .container .items .item h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+#first .container .items .middle {
+  padding: 0 30px;
+  margin: 0 28px;
+}/*# sourceMappingURL=style.css.map */

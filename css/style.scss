@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+#first{
+    background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+    .container{
+        color: #ffffff;
+        span{
+            font-family: 'Charm', cursive;
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+        h3{
+            font-size: 100px;
+            margin-bottom: 22px;
+        }
+        .items{
+            display: flex;
+            justify-content: center;
+            .item{
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                h3{
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+            }
+            .middle{
+                padding: 0 30px;
+                margin: 0 28px;
+                border-left: ;
+                border-right: ;
+            }
+        }
+    }
+}
