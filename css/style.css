@@ -5,34 +5,109 @@
   font-family: "Jost", sans-serif;
 }
 
-#first {
-  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+a {
+  text-decoration: none;
 }
-#first .container {
+
+header {
+  position: fixed;
+  padding: 17px 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header a {
   color: #ffffff;
+  font-size: 16px;
 }
-#first .container span {
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav a {
+  padding: 0 15px;
+}
+header .icons {
+  display: flex;
+  justify-content: space-between;
+}
+header .icons .favorites {
+  position: relative;
+}
+header .icons .favorites .favorites-badge {
+  position: absolute;
+  right: -13px;
+  top: -6px;
+}
+header .icons .basket {
+  position: relative;
+}
+header .icons .basket .basket-badge {
+  position: absolute;
+  right: -13px;
+  top: -6px;
+}
+header .icons .badge {
+  background-color: #ffffff;
+  color: #010f1c;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#SliderAll {
+  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+  padding-top: 250px;
+}
+#SliderAll .slider-text {
+  color: #ffffff;
+  width: 45%;
+}
+#SliderAll .slider-text span {
   font-family: "Charm", cursive;
   font-size: 30px;
   margin-bottom: 8px;
 }
-#first .container h3 {
+#SliderAll .slider-text h3 {
   font-size: 100px;
+  font-weight: 400;
   margin-bottom: 22px;
 }
-#first .container .items {
+#SliderAll .slider-text .items {
   display: flex;
   justify-content: center;
 }
-#first .container .items .item {
+#SliderAll .slider-text .items .item {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
-#first .container .items .item h3 {
+#SliderAll .slider-text .items .item h3 {
   font-size: 16px;
   margin-bottom: 8px;
+  margin-left: 8px;
 }
-#first .container .items .middle {
+#SliderAll .slider-text .items .middle {
+  position: relative;
   padding: 0 30px;
   margin: 0 28px;
+}
+#SliderAll .slider-text .items .middle::before {
+  content: "";
+  position: absolute;
+  left: 143%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#SliderAll .slider-text .items .middle::after {
+  content: "";
+  position: absolute;
+  right: 143%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
 }/*# sourceMappingURL=style.css.map */

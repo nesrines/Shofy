@@ -1,39 +1,109 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
-#first{
-    background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
-    .container{
+a {
+    text-decoration: none;
+}
+header {
+    position: fixed;
+    padding: 17px 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    a {
         color: #ffffff;
-        span{
+        font-size: 16px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        a{
+            padding: 0 15px;
+        }
+    }
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        .favorites {
+            position: relative;
+            .favorites-badge{
+                position: absolute;
+                right: -13px;
+                top: -6px;
+            }
+        }
+        .basket {
+            position: relative;
+            .basket-badge{
+                position: absolute;
+                right: -13px;
+                top: -6px;
+            }
+        }
+        .badge {
+            background-color: #ffffff;
+            color: #010f1c;
+            width: 22px;
+            height: 22px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+}
+#SliderAll {
+    background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+    padding-top: 250px;
+    .slider-text {
+        color: #ffffff;
+        width: 45%;
+        span {
             font-family: 'Charm', cursive;
             font-size: 30px;
             margin-bottom: 8px;
         }
-        h3{
+        h3 {
             font-size: 100px;
+            font-weight: 400;
             margin-bottom: 22px;
         }
-        .items{
+        .items {
             display: flex;
             justify-content: center;
-            .item{
+            .item {
                 display: flex;
                 align-items: center;
                 margin-bottom: 30px;
-                h3{
+                h3 {
                     font-size: 16px;
                     margin-bottom: 8px;
+                    margin-left: 8px;
                 }
             }
-            .middle{
+            .middle {
+                position: relative;
                 padding: 0 30px;
                 margin: 0 28px;
-                border-left: ;
-                border-right: ;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 143%;
+                    top: 0;
+                    width: 1px;
+                    height: 100%;
+                    background-color: #ffffff33;
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    right: 143%;
+                    top: 0;
+                    width: 1px;
+                    height: 100%;
+                    background-color: #ffffff33;
+                }
             }
         }
     }
