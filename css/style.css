@@ -18,18 +18,19 @@ header {
 }
 header a {
   color: #ffffff;
-  font-size: 16px;
 }
 header nav {
   display: flex;
   justify-content: space-between;
 }
 header nav a {
+  font-size: 16px;
   padding: 0 15px;
 }
 header .icons {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 header .icons .favorites {
   position: relative;
@@ -50,6 +51,8 @@ header .icons .basket .basket-badge {
 header .icons .badge {
   background-color: #ffffff;
   color: #010f1c;
+  font-size: 12px;
+  font-weight: 700;
   width: 22px;
   height: 22px;
   text-align: center;

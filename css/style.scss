@@ -15,18 +15,19 @@ header {
     width: 100%;
     a {
         color: #ffffff;
-        font-size: 16px;
     }
     nav {
         display: flex;
         justify-content: space-between;
         a{
+            font-size: 16px;
             padding: 0 15px;
         }
     }
     .icons {
         display: flex;
         justify-content: space-between;
+        font-size: 20px;
         .favorites {
             position: relative;
             .favorites-badge{
@@ -46,6 +47,8 @@ header {
         .badge {
             background-color: #ffffff;
             color: #010f1c;
+            font-size: 12px;
+            font-weight: 700;
             width: 22px;
             height: 22px;
             text-align: center;
