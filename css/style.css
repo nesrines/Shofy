@@ -27,6 +27,9 @@ header nav a {
   font-size: 16px;
   padding: 0 15px;
 }
+header nav a i {
+  font-size: 11px;
+}
 header .icons {
   display: flex;
   justify-content: space-between;
@@ -75,42 +78,30 @@ header .icons .badge {
 #SliderAll .slider-text h3 {
   font-size: 100px;
   font-weight: 400;
+  line-height: 1.06;
   margin-bottom: 22px;
 }
 #SliderAll .slider-text .items {
   display: flex;
   justify-content: center;
+  width: 80%;
 }
 #SliderAll .slider-text .items .item {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
+#SliderAll .slider-text .items .item svg {
+  font-size: 35px;
+}
 #SliderAll .slider-text .items .item h3 {
   font-size: 16px;
   margin-bottom: 8px;
   margin-left: 8px;
 }
-#SliderAll .slider-text .items .middle {
-  position: relative;
-  padding: 0 30px;
-  margin: 0 28px;
-}
-#SliderAll .slider-text .items .middle::before {
-  content: "";
-  position: absolute;
-  left: 143%;
-  top: 0;
+#SliderAll .slider-text .items .divider {
   width: 1px;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-#SliderAll .slider-text .items .middle::after {
-  content: "";
-  position: absolute;
-  right: 143%;
-  top: 0;
-  width: 1px;
-  height: 100%;
+  margin: 0 50px;
   background-color: rgba(255, 255, 255, 0.2);
 }/*# sourceMappingURL=style.css.map */
